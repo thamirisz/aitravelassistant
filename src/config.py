@@ -9,7 +9,8 @@ QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
 COLLECTION_NAME = os.getenv("COLLECTION_NAME")
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+HF_TOKEN = os.getenv("HF_TOKEN")
 
 # Model provider: 'huggingface' or 'openai'
-MODEL_PROVIDER = "openai"  # Change to 'openai' to use OpenAI
+MODEL_PROVIDER = "huggingface"  # Change to 'openai' to use OpenAI
 FASTAPI_URL = "http://localhost:8000"

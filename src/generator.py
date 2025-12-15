@@ -16,7 +16,6 @@ prompt_template = PromptTemplate(
 Use the following travel guide context to answer the question.
 If the answer is not found, say you don't know — don’t make it up.
 
-
 Context:
 {context}
 
